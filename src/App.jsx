@@ -1,12 +1,17 @@
 import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer'
+import Card from './components/Cards/Cards';
+import Hero from './components/Hero/Hero';
+
 
 function App() {
   return (
-    <div>
-     Hola
-    </div>
+
+    <>
+      <Card />
+      <Footer />
+    </>
   )
 }
 
