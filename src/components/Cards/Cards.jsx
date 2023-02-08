@@ -33,8 +33,11 @@ export const Card = () => {
     <div className='container-cards'>
       {cardsDetails.map(card =>
         <div className='card-style'>
-          <img src={card.img} />
-          <h1>{card.title}</h1>
+            <img src={card.img} />
+          <div className='content'>           
+            <h3>{card.title}</h3>
+            <a href='#'>Ir a seccion</a>
+          </div>
         </div>)}
     </div>
   )

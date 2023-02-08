@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -37,11 +38,3 @@
   }
 }
 
-.hero-style { 
-  background-image: url("../src/components/images/005_SumVistaEste.jpg");
-  width: 100vw;
-  height: 70vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}

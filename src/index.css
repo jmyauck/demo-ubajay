@@ -1,15 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #005A3F url("../src/components/images/005_SumVistaEsteV2.jpg");
+  background: #005A3F/*  url("../src/components/images/005_SumVistaEsteV2.jpg") */;
   background-size: 100% 70%;
   background-repeat: no-repeat;
-  
-
 }
 
 code {
