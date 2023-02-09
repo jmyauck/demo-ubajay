@@ -1,5 +1,8 @@
 .navbar-style {
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
-  }
-
+    display: flex;
+    align-items: center;
+    color: #EBEDF2;
+    cursor: default;
+}

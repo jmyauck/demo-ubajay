@@ -12,7 +12,6 @@ const items = [
         label: 'Navigation Two',
         key: 'app',
         
-        disabled: true,
     },
     {
         label: 'Navigation Three - Submenu',
