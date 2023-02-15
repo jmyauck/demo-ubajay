@@ -4,7 +4,7 @@ export const About =()=> {
 
     return (
         <div className='about-section'>
-            <h2>Somos Ubajay</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius earum tenetur, sint, nobis soluta tempore aspernatur ratione temporibus, amet modi saepe illum atque at vel ex non optio. Quia.</p>
+            <h2>Somos Ubajay</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus soluta aut quidem explicabo ullam? Itaque sunt pariatur eius hic labore atque rerum unde vitae id beatae. Aliquam corrupti modi quae.</p>
         </div>
     )
 

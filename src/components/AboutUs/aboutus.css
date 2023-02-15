@@ -1,9 +1,19 @@
 .about-section {
     margin-top: 200px;
     width: 100%;
-    height: 200px;
     background-color: #005A3F;
     display: flex;
+
     flex-direction: row;
     position: relative;
+    color: #EBEDF2;
+    justify-content: space-around;
+}
+.about-section h2 {
+    font-size: 70px;
+    max-width: 25%;
+}
+
+.about-section p {
+    max-width: 50%;
 }

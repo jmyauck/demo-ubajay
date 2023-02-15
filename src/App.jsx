@@ -10,9 +10,11 @@ function App() {
   return (
 
     <div className='app-style'>
-      <Hero />
-      <About />
-      <Footer />
+      <div className='section-container'>
+        <Card />
+        <About />
+        <Footer />   
+      </div>
     </div>
   )
 }

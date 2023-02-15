@@ -39,6 +39,19 @@
 }
 
 /* .app-style {
+  background-image: url("../src/components/images/005_SumVistaEsteV2.jpg");
+  width: 100vw;
+  height: 70vh;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* box-shadow: 20px; */
+  /* position: relative; */
+
+
+.section-container {
   display: flex;
-  align-content: space-around;
-} */
+  flex-direction: column;
+  position: relative;
+}

@@ -1,7 +1,22 @@
 .header-style {
     width: 100vw;
-    height: 13vh;
+    height: 17vh;
     background-color: rgba(0, 0, 0, 0.705);
     display: flex;
     justify-content: space-between;
+}
+
+.socialbar {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+@media screen  and (max-width: 1111px) {
+    .socialbar {
+        display: flex;
+        flex-direction: column;
+    }
 }

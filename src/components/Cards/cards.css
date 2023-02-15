@@ -27,12 +27,17 @@
 } */
 
 .container-cards {
+    background-image: url("../images/005_SumVistaEsteV2.jpg");
+  /* width: 100vw;
+  height: 70vh; */
     width: 100%;
     display: flex;
-    justify-content: center;
-    margin-top: 20vh;
+    justify-content: space-around;
+    align-content: center;
+
     flex-wrap: wrap;
-    position: absolute;
+    min-height: 65vh;
+    /* position: absolute; */
 }
 
 .card-style {
