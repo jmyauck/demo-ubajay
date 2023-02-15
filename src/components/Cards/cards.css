@@ -30,7 +30,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin-top: 20vh;
     flex-wrap: wrap;
     position: absolute;
 }
@@ -65,4 +65,10 @@
 .content h3 {
     font-weight: 400;
     color: #EBEDF2;
+}
+
+@media screen and (max-width: 640px) {
+    .container-cards {
+        margin-top: 0;
+    }
 }

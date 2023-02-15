@@ -5,4 +5,7 @@
     align-items: center;
     color: #EBEDF2;
     cursor: default;
+    width: 95%;
+    justify-content: end;
 }
+
