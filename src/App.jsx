@@ -6,12 +6,13 @@ import Hero from './components/Hero/Hero';
 import About  from './components/AboutUs/AboutUs';
 
 
+
 function App() {
   return (
 
     <div className='app-style'>
       <div className='section-container'>
-        <Card />
+        <Card path={'/section/:id'}/>
         <About />
         <Footer />   
       </div>
