@@ -1,22 +1,28 @@
 import { Menu } from 'antd';
 import { useState } from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom'
+import { Multifamiliares } from '../../pages/ViviendasMultifamiliares/ViviendasMultifamiliares'
+import { render } from 'less';
 
 
 const items = [
     {
         label: 'Navigation One',
         key: 'mail',
+        id: '1',
+        element: <Multifamiliares/>
         
     },
     {
         label: 'Navigation Two',
         key: 'app',
-        
+        id: '2'
     },
     {
         label: 'Navigation Three - Submenu',
         key: 'SubMenu',
+        id: '3',
         
         children: [
             {
@@ -56,6 +62,7 @@ const items = [
 ];
 
 export const Navbar = () => {
+
     const [current, setCurrent] = useState('mail');
     const onClick = (e) => {
         console.log('click ', e);
@@ -63,7 +70,7 @@ export const Navbar = () => {
     };
     return (
         <div className='navbar-style'>
-            <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} className="navbar-style"/>
+                <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} className="navbar-style"/>
         </div>
     )
 };

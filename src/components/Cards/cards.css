@@ -27,7 +27,7 @@
 } */
 
 .container-cards {
-    background-image: url("../images/005_SumVistaEsteV2.jpg");
+    /* background-image: url("../images/005_SumVistaEsteV2.jpg"); */
   /* width: 100vw;
   height: 70vh; */
     width: 100%;
@@ -38,7 +38,7 @@
     flex-wrap: wrap;
     min-height: 65vh;
     /* position: absolute; */
-    box-shadow: 0px 10px 5px #00000025;
+    /* box-shadow: 0px 10px 5px #00000025; */
 }
 
 .card-style {
@@ -68,7 +68,8 @@
     text-align: center;
     align-content: space-around;
 }
-.content h3 {
+.content h5 {
+    margin-top: 0.625rem;
     font-weight: 400;
     color: #EBEDF2;
 }
@@ -77,4 +78,7 @@
     .container-cards {
         margin-top: 0;
     }
+}
+.link-style {
+    text-decoration: none;
 }

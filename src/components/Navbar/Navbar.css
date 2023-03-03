@@ -9,3 +9,18 @@
     justify-content: end;
 }
 
+.navbar-style nav {
+    background-color: transparent !important;
+}
+
+.nav-link {
+    color: #EBEDF2;
+}
+
+.nav-link:hover{
+    color: #007E5B;
+}
+
+.navbar-nav {
+    justify-content: space-around;
+}

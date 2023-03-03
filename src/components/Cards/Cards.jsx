@@ -9,24 +9,24 @@ import { Link } from 'react-router-dom'
 
 const cardsDetails = [
   {
-    title: "card 1",
+    title: "Viviendas Multifamiliares",
     img: img1,
-    id: '1'
+    id: 'viviendas-multifamiliares',
   },
   {
-    title: "card 2",
+    title: "Viviendas Unifamiliares",
     img: img2,
-    id: '2'
+    id: 'viviendas-unifamiliares'
   },
   {
-    title: "card 3",
+    title: "Desarrollo Urbano",
     img: img3,
-    id: '3'
+    id: 'desarrollo-urbano'
   },
   {
-    title: "card 4",
+    title: "Obras Civiles",
     img: img4,
-    id: '4'
+    id: 'obras-civiles'
   },
 ]
 
@@ -38,11 +38,11 @@ export const Card = () => {
   return (
     <div className='container-cards'>
       {cardsDetails.map(card =>
-        <Link to={`section/${card.id}`}>
+        <Link to={`section/${card.id}`} className='link-style'>
           <div className='card-style'>
             <img src={card.img} />
             <div className='content'>
-              <h3>{card.title}</h3>
+              <h5>{card.title}</h5>
             </div>
           </div>
         </Link>

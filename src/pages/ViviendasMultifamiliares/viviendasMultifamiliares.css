@@ -1,0 +1,38 @@
+.section-multi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+
+.info-multi {
+    width: 45vw;
+}
+/*estilo de galeria*/
+.galery-multi {
+    width: 50%;
+}
+
+.galery-image {
+    max-width: 350px;
+}
+
+/*fin de estilo de galeria*/
+
+/*banner de multifamiliar*/
+.multi-banner {
+    background-color: #007E5B;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 35vh;
+    margin-top: 10vh;
+    align-items: center;
+}
+
+.multi-banner img {
+    width: 400px;
+    height: 250px;
+}
+/*fin banner de multifamiliar*/

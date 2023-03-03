@@ -4,16 +4,31 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Layout from './components/Layout/Layout';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Multifamiliares } from './pages/ViviendasMultifamiliares/ViviendasMultifamiliares'
+import { Unifamiliares } from './pages/ViviendasUnifamiliares/ViviendasUnifamiliares'
+import { Desarrollo } from './pages/DesarrolloUrbano/DesarrolloUrbano'
+import { Obras } from './pages/ObrasCiviles/ObrasCiviles'
+import { ModalProvider } from './contexts/background-image.context';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Layout>
-        <App/>
-      </Layout>
+      <ModalProvider>
+        <Layout>
+          <Routes>
+            <Route exact path='/' element={<App />} />
+            <Route exact path='/section/viviendas-multifamiliares' element={<Multifamiliares />} />
+            <Route exact path='/section/viviendas-unifamiliares' element={<Unifamiliares />} />
+            <Route exact path='/section/desarrollo-urbano' element={<Desarrollo />} />
+            <Route exact path='/section/obras-civiles' element={<Obras />} />
+          </Routes>
+        </Layout>
+      </ModalProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -5,9 +5,20 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #EBEDF2 /* url("../src/components/images/005_SumVistaEsteV2.jpg") */;
-  /* background-size: 100% 90vh; */
-/*   background-repeat: no-repeat; */
+}
+
+.background-image-1 {
+  background: #EBEDF2 url("../src/components/images/005_SumVistaEsteV2.jpg");
+  box-shadow: 0px 10px 5px #00000025;
+  background-size: 100% 90vh; 
+  background-repeat: no-repeat;
+}
+
+.background-image-2 {
+  background: #EBEDF2;
+  box-shadow: 0px 10px 5px #00000025;
+  background-size: 100% 90vh; 
+  background-repeat: no-repeat;
 }
 
 code {

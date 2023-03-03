@@ -4,6 +4,7 @@
     background-color: rgba(0, 0, 0, 0.705);
     display: flex;
     justify-content: space-between;
+
 }
 
 .socialbar {
@@ -12,6 +13,9 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
+}
+.social-item:hover {
+    color: #007E5B;
 }
 
 @media screen  and (max-width: 1111px) {
