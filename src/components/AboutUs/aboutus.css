@@ -5,6 +5,7 @@
     display: flex;
     box-shadow: 0px 10px 5px #00000025;
     flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     color: #EBEDF2;
     justify-content: end;

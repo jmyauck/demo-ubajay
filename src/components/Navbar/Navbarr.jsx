@@ -1,5 +1,6 @@
 import React from "react";
 import './Navbar.css';
+import { HomeFilled } from '@ant-design/icons'
 
 
 export const Navbarr = () => {
@@ -8,7 +9,7 @@ export const Navbarr = () => {
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <HomeFilled style={{ fontSize: '26px', color: '#989DA6'}}/>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
