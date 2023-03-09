@@ -8,20 +8,41 @@
 }
 
 .info-multi {
-    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 55vw;
+    height: 550px;
 }
-.info-multi ul {
+.info-multi div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info-multi div div {
+    width: 25vw;
+    padding-left: 10vw;
+}
+.img-section img {
+    width: 400px;
+}
+.info-multi div ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    height: 200px;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
+    padding-left: 10vw;
 }
 .info-multi ul img {
     margin-right: 10px;
 }
 /*estilo de galeria*/
 .galery-multi {
-    width: 50%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 65%;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +59,7 @@
 /*carousel de multifamiliar*/
 .carousel-multi {
     height: 50vh;
-    width: 100vw;
+    width: 100%;
 }
 .carousel-multi div img {
     height: 55vh;

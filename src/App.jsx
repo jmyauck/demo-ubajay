@@ -8,7 +8,10 @@ import { Multifamiliares } from './pages/ViviendasMultifamiliares/ViviendasMulti
 import { useContext } from 'react';
 import { ModalContext } from './contexts/background-image.context';
 import { useEffect } from 'react';
-
+import { SectionBannerLoteoSM } from './components/SectionBannerLoteoSM/SectionBannerLoteoSM';
+import { ContactSection } from './components/ContactSection/ContactSection'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 function App() {
@@ -18,12 +21,17 @@ function App() {
     setClassName('background-image-1')
   }, [])
 
+
+
+
   return (
 
     <div className='app-style'>
       <div className='section-container'>
         <Card exact path={'/section/:id'} />
         <About />
+        <SectionBannerLoteoSM />
+        <ContactSection />
         <Footer />
       </div>
     </div>

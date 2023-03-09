@@ -12,13 +12,15 @@ body {
   box-shadow: 0px 10px 5px #00000025;
   background-size: 100% 90vh; 
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .background-image-2 {
-  background: #EBEDF2;
+  background: #EBEDF2 100% 90vh;
   box-shadow: 0px 10px 5px #00000025;
   background-size: 100% 90vh; 
   background-repeat: no-repeat;
+  
 }
 
 code {

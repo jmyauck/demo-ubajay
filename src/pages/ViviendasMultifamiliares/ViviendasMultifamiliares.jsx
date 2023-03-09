@@ -6,11 +6,14 @@ import Img1 from '../../components/images/035_3D_D.C.png'
 import Img2 from '../../components/images/019_1D_Piso8.jpg'
 import Img3 from '../../components/images/036_3D_DeptoGeneral.jpg'
 import Img4 from '../../components/images/027_3D_D.M_Piso6.jpg'
+import Img5 from '../../components/images/045_Fachada Con Montaje.jpg'
 import Footer from '../../components/Footer/Footer';
 import IconBed from '../../components/images/assets/double-bed.png';
 import IconKitchen from '../../components/images/assets/kitchen.png';
 import IconLocation from '../../components/images/assets/maps-and-location.png';
 import IconPool from '../../components/images/assets/swimming-pool.png';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
@@ -25,6 +28,9 @@ export const Multifamiliares = () => {
         setClassName('background-image-2')
     }, [])
 
+    useEffect(()=> {
+        AOS.init({duration: 1000});
+      }, []);
 
     return (
 
@@ -32,7 +38,7 @@ export const Multifamiliares = () => {
         <div>
             <Carousel autoplay effect="fade" className='carousel-multi'>
                 <div>
-                    <img src={Img1}/>
+                    <img src={Img1} />
                 </div>
                 <div>
                     <img src={Img2} />
@@ -46,26 +52,41 @@ export const Multifamiliares = () => {
             </Carousel>
 
             <div className='section-multi'>
-                <div className='info-multi'>
-                    <h1>Altos de Sarfield</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minima molestias, porro atque recusandae, repudiandae voluptatibus repellendus alias temporibus delectus deserunt necessitatibus quasi quod voluptate, nam sapiente praesentium voluptatum veritatis.</p>
-                    <ul>
-                        <li><img src={IconBed}/>Item 1</li>
-                        <li><img src={IconKitchen}/>Item 2</li>
-                        <li><img src={IconLocation}/>Item 3</li>
-                        <li><img src={IconPool}/>Item 4</li>
-                    </ul>
+                <div className='info-multi' data-aos='zoom-in'>
+                    <div>
+                        <div>
+                            <h1>Altos de Sarfield</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Amet minima molestias, porro atque recusandae, repudiandae
+                                voluptatibus repellendus alias temporibus delectus deserunt
+                                necessitatibus quasi quod voluptate, nam sapiente praesentium voluptatum veritatis.
+                            </p>
+                        </div>
+                        <ul>
+                            <li><img src={IconBed} />Item 1</li>
+                            <li><img src={IconKitchen} />Item 2</li>
+                            <li><img src={IconLocation} />Item 3</li>
+                            <li><img src={IconPool} />Item 4</li>
+                        </ul>
+                    </div>
+                    <div className='img-section'>
+                        <img src={Img5} />
+                    </div>
                 </div>
-                <div className='galery-multi'>
+                <div className='galery-multi' >
                     <Image.PreviewGroup className='galery-div-group'>
-                        <Image src={Img1} className='galery-image' />
-                        <Image src={Img2} className='galery-image' />
-                        <Image src={Img3} className='galery-image' />
-                        <Image src={Img4} className='galery-image' />
-                        <Image src={Img1} className='galery-image' />
-                        <Image src={Img2} className='galery-image' />
-                        <Image src={Img3} className='galery-image' />
-                        <Image src={Img4} className='galery-image' />
+                        <Image src={Img1} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img2} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img3} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img5} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img5} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img5} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img3} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img4} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img1} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img2} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img3} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img4} className='galery-image' data-aos='zoom-in'/>
                     </Image.PreviewGroup>
                 </div>
             </div>
