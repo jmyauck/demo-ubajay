@@ -10,7 +10,7 @@ export const SectionBannerLoteoSM =()=>{
     useEffect(()=> {
         AOS.init({duration: 1000});
         console.log('render')
-      }, []);
+    }, []);
 
     return(
         <div className='section-multimedia' data-aos='zoom-in'>

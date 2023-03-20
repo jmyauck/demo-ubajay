@@ -60,10 +60,37 @@
 .carousel-multi {
     height: 50vh;
     width: 100%;
+    position: absolute;
 }
 .carousel-multi div img {
     height: 55vh;
     width: 100vw;
     object-fit: cover;
 }
+.vid-carou {
+    height: 55vh;
+    width: 65vw;
+}
+
 /*fin carosel de multifamiliar*/
+
+@media screen and (max-width:600px) {
+    .info-multi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 25vh;
+        margin-bottom: 25vh;
+    }
+    .container-info {
+        width: max-content;
+    }
+    .info-multi div div {
+        width: 100vw;
+    }
+    .img-section img {
+        width: 100vw;
+    }
+    
+}
