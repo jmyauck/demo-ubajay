@@ -40,13 +40,13 @@ export const Multifamiliares = () => {
         <div>
             <Carousel autoplay effect="fade" className='carousel-multi'>
                 <div>
-                    <img src={Img1} />
+                    <img src={Img3} />
                 </div>
                 <div>
                     <img src={Img2} />
                 </div>
                 <div>
-                    <img src={Img3} />
+                    <img src={Img1} />
                 </div>
                 <div>
                     <img src={Img4} />
@@ -75,21 +75,22 @@ export const Multifamiliares = () => {
                         <img src={Img5} />
                     </div>
                 </div>
-{/*                     <ReactPlayer className='vid-carou'
+                   <ReactPlayer className='vid-carou'
                         url={require('../../components/images/Multifamiliares/videos/WhatsApp Video 2023-03-15 at 17.06.29.mp4')}
                         controls
                         playing
                         muted
                         loop
-                    /> */}
+                    />
                 <div className='galery-multi' >
                     <Image.PreviewGroup className='galery-div-group'>
                         <Image src={Img1} className='galery-image' data-aos='zoom-in'/>
                         <Image src={Img2} className='galery-image' data-aos='zoom-in'/>
                         <Image src={Img3} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img3} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img4} className='galery-image' data-aos='zoom-in'/>
                         <Image src={Img1} className='galery-image' data-aos='zoom-in'/>
-                        <Image src={Img5} className='galery-image' data-aos='zoom-in'/>
-                        <Image src={Img5} className='galery-image' data-aos='zoom-in'/>
+                        <Image src={Img2} className='galery-image' data-aos='zoom-in'/>
                         <Image src={Img3} className='galery-image' data-aos='zoom-in'/>
                         <Image src={Img4} className='galery-image' data-aos='zoom-in'/>
                         <Image src={Img1} className='galery-image' data-aos='zoom-in'/>

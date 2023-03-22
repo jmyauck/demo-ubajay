@@ -5,6 +5,7 @@
     justify-items: space-around;
     flex-wrap: wrap;
     margin-top: 10vh;
+    position: relative;
 }
 
 .info-multi {
@@ -19,7 +20,7 @@
     flex-direction: column;
     justify-content: space-around;
 }
-.info-multi div div {
+.container-info {
     width: 25vw;
     padding-left: 10vw;
 }
@@ -40,7 +41,7 @@
 }
 /*estilo de galeria*/
 .galery-multi {
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-bottom: 10vh;
     width: 65%;
     justify-content: center;
@@ -60,7 +61,7 @@
 .carousel-multi {
     height: 50vh;
     width: 100%;
-    position: absolute;
+
 }
 .carousel-multi div img {
     height: 55vh;
@@ -68,29 +69,62 @@
     object-fit: cover;
 }
 .vid-carou {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     height: 55vh;
     width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
 }
 
 /*fin carosel de multifamiliar*/
 
-@media screen and (max-width:600px) {
+
+
+/*breakpoints */
+@media screen and (max-width:1435px){
+
+    .info-multi {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .container-info {
+        width: 80%;
+    }
+    .img-section img {
+        display: none;
+    }
+    .vid-carou {
+        width: 100%;
+    }
+    .galery-multi {
+        align-self: center;
+    }
+    
+}
+@media screen and (max-width:645px) {
     .info-multi {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100vw;
-        margin-top: 25vh;
-        margin-bottom: 25vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
     .container-info {
-        width: max-content;
+        width: 100%;
     }
-    .info-multi div div {
+    .container-info {
         width: 100vw;
     }
     .img-section img {
         width: 100vw;
+        display:run-in;
+    }
+    .vid-carou {
+        display: none;
     }
     
 }
+

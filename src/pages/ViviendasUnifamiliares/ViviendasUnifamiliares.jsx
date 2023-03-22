@@ -3,6 +3,8 @@ import './viviendasUnifamiliares.css';
 import { useEffect } from 'react';
 import { useContext } from 'react';
 import { ModalContext } from '../../contexts/background-image.context';
+import { Image } from 'antd'
+import  ImgLM1 from '../../components/images/Unifamiliares/Baño.jpg'
 
 
 
@@ -14,7 +16,24 @@ export const Unifamiliares = () => {
     }, [])
 
     return (
-        <h1>seccion viviendas unifamiliares</h1>
+        <div>
+            <h1>Los Mandarinos</h1>
+            <Image.PreviewGroup className='galery-div-group'>
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+                <Image src={ImgLM1} className='galery-image' data-aos='zoom-in' />
+            </Image.PreviewGroup>
+        </div>
     )
 }
 
