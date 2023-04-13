@@ -7,7 +7,7 @@ import Img2 from '../../components/images/Multifamiliares/019_1D_Piso8.jpg'
 import Img3 from '../../components/images/Multifamiliares/036_3D_DeptoGeneral.jpg'
 import Img4 from '../../components/images/Multifamiliares/027_3D_D.M_Piso6.jpg'
 import Img5 from '../../components/images/Multifamiliares/045_Fachada Con Montaje.jpg'
-import Vid1 from '../../components/images/Multifamiliares/videos/WhatsApp Video 2023-03-15 at 17.06.29.mp4'
+import Vid1 from '../../components/images/Multifamiliares/videos/WhatsApp Video 2023-03-15 at 17.06.29COMPRESSED.mp4'
 import Footer from '../../components/Footer/Footer';
 import IconBed from '../../components/images/assets/double-bed.png';
 import IconKitchen from '../../components/images/assets/kitchen.png';
@@ -16,6 +16,7 @@ import IconPool from '../../components/images/assets/swimming-pool.png';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import ReactPlayer from 'react-player';
+import Map from '../../components/Map/Map'
 
 
 
@@ -30,8 +31,10 @@ export const Multifamiliares = () => {
         setClassName('background-image-2')
     }, [])
 
-    useEffect(()=> {
-        AOS.init({duration: 1000});
+
+    useEffect(() => {
+        AOS.init({ duration: 1100 });
+        AOS.init({ once : true })
     }, []);
 
     return (
@@ -52,7 +55,6 @@ export const Multifamiliares = () => {
                     <img src={Img4} />
                 </div>
             </Carousel>
-
             <div className='section-multi'>
                 <div className='info-multi' data-aos='zoom-in'>
                     <div>
@@ -76,7 +78,7 @@ export const Multifamiliares = () => {
                     </div>
                 </div>
                    <ReactPlayer className='vid-carou'
-                        url={require('../../components/images/Multifamiliares/videos/WhatsApp Video 2023-03-15 at 17.06.29.mp4')}
+                        url={require('../../components/images/Multifamiliares/videos/WhatsApp Video 2023-03-15 at 17.06.29COMPRESSED.mp4')}
                         controls
                         playing
                         muted

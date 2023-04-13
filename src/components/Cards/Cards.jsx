@@ -38,9 +38,11 @@ const cardsDetails = [
 
 export const Card = () => {
 
-  useEffect(()=> {
-    AOS.init({duration: 1000});
-  }, []);
+
+  useEffect(() => {
+    AOS.init({ duration: 1100 });
+    AOS.init({ once : true })
+}, []);
 
 
   return (

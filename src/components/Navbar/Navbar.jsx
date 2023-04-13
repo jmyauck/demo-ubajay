@@ -1,4 +1,4 @@
-import { Menu } from 'antd';
+/* import { Menu } from 'antd';
 import { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom'
@@ -77,4 +77,34 @@ export const Navbar = () => {
 
 
 
-export default Navbar;
+export default Navbar; */
+
+import React from 'react';
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
+
+
+export const CustomNavbar=()=> {
+  return (
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container>
+        {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href='#'>Nosotros</Nav.Link>
+            <Nav.Link href='#'>Contacto</Nav.Link>
+            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown.Item href='/section/viviendas-multifamiliares'>multi</NavDropdown.Item>
+              <NavDropdown.Item href='/section/viviendas-unifamiliares'>uni</NavDropdown.Item>
+              <NavDropdown.Item href='/section/desarrollo-urbano'>desarrollo</NavDropdown.Item>
+              <NavDropdown.Item href='/section/obras-civiles'>obras</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default CustomNavbar;

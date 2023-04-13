@@ -1,4 +1,5 @@
-.about-section {
+
+/* .about-section {
     margin-top: 200px;
     width: 100%;
     background-color: #005A3F;
@@ -19,4 +20,51 @@
     max-width: 50%;
     font-size: 20px;
     padding: 40px;
+} */
+.banner {
+    background-color: #005a3fe5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    box-shadow: 0px 10px 5px #00000071;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .banner-content {
+      /* height: 300px; */
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .banner-content {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+      /* height: 200px; */
+    }
+  }
+
+  @media (max-width: 1214px) {
+    .banner-content {position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
 }

@@ -2,21 +2,23 @@
     color: aliceblue;
     width: 100%;
     height: max-content;
-    background-color: #262526;
+    /* background-color: #262526e8; */
     margin-top: 10vh;
     margin-bottom: 10vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px 10px 5px #00000025;
+    /* box-shadow: 0px 10px 5px #00000071; */
 }
 .section-multimedia img {
-    max-width: 450px;
-    max-height: 250px;
+    max-width: 500px;
+    max-height: 290px;
+    box-shadow: 0px 10px 5px #00000071;
 }
  
 .video-loteo{
-    max-height: 250px;
-    max-width: 450px;
+    max-height: 290px;
+    max-width: 500px;
+    box-shadow: 0px 10px 5px #00000071;
 }
