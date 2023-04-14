@@ -77,7 +77,7 @@
     color: #007E5B;
   }
   
-  @media (min-width: 800px) {
+  @media (min-width: 1255px) {
     .navBar {
       --state-Close: scale(0);
       --state-Hambur: scale(0);
