@@ -2,7 +2,7 @@
   "name": "ubajayproyect",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jmyauck.github.io/",
+  "homepage": "https://jmyauck.github.io/jmyauck",
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "@testing-library/jest-dom": "^5.16.5",
