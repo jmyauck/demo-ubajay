@@ -3,6 +3,8 @@ import './obrasCiviles.css';
 import { useEffect } from 'react';
 import { useContext } from 'react';
 import { ModalContext } from '../../contexts/background-image.context';
+import { AnimatedGear } from '../../components/AnimatedGear/AnimatedGear'
+import Footer from '../../components/Footer/Footer'
 
 
 
@@ -15,7 +17,14 @@ export const Obras = () => {
 
 
     return (
-        <h1>seccion obras civiles</h1>
+        <div>
+        <AnimatedGear/>
+        <div className='obras-proximamente'>
+            <h2>Estamos trabajando en esta sección</h2>
+            <h5>Próximamente tendrás novedades de las obras civiles a cargo de <b>Ubajay Desarrollos.</b></h5>
+        </div>
+        <Footer/>
+        </div>
     )
 }
 

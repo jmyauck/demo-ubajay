@@ -1,7 +1,8 @@
-import img1 from '../images/Multifamiliares/040_Suroeste.jpg'
-import img2 from '../images/Multifamiliares/019_1D_Piso8.jpg'
-import img3 from '../images/loteo-san-miguel.jpeg'
-import img4 from '../images/Multifamiliares/035_3D_D.C.png'
+import img1DARK from '../images/assets/buildingsDARK.png'
+import img1LIGHT from '../images/assets/buildingsLIGHT.png'
+import img2LIGHT from '../images/assets/houseLIGHT.png'
+import img3LIGHT from '../images/assets/land.png'
+import img4LIGHT from '../images/assets/excavator.png'
 import './cards.css'
 import { Link } from 'react-router-dom'
 import AOS from 'aos'
@@ -14,22 +15,22 @@ import { useEffect } from 'react'
 const cardsDetails = [
   {
     title: "Viviendas Multifamiliares",
-    img: img1,
+    img: img1LIGHT,
     id: 'viviendas-multifamiliares',
   },
   {
     title: "Viviendas Unifamiliares",
-    img: img2,
+    img: img2LIGHT,
     id: 'viviendas-unifamiliares'
   },
   {
     title: "Desarrollo Urbano",
-    img: img3,
+    img: img3LIGHT,
     id: 'desarrollo-urbano'
   },
   {
     title: "Obras Civiles",
-    img: img4,
+    img: img4LIGHT,
     id: 'obras-civiles'
   },
 ]

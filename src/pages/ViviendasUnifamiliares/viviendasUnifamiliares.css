@@ -1,4 +1,4 @@
-.section-multi {
+.section-uni {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -8,26 +8,29 @@
     position: relative;
 }
 
-.info-multi {
+.info-uni {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 55vw;
     height: 550px;
 }
-.info-multi div {
+.info-uni div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.container-info {
+.container-info-uni {
     width: 25vw;
     padding-left: 10vw;
+}
+.container-info-uni h1 { 
+    color: #007E5B;
 }
 .img-section img {
     width: 400px;
 }
-.info-multi div ul {
+.info-uni div ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -36,10 +39,10 @@
     flex-direction: column;
     padding-left: 10vw;
 }
-.info-multi ul img {
+.info-uni ul img {
     margin-right: 10px;
 }
-.galery-multi {
+.galery-uni {
     margin-top: 5vh;
     margin-bottom: 10vh;
     width: 65%;
@@ -56,23 +59,27 @@
 /*breakpoints*/
 @media screen and (max-width:1435px){
 
-    .info-multi {
+    .info-uni {
         flex-direction: column;
         width: 100vw;
     }
-    .container-info {
+    .container-info-uni {
         width: 80%;
     }
     .img-section img {
         display: none;
     }
-    .galery-multi {
+    .galery-uni {
         align-self: center;
     }
     
 }
+.vc-list-marg{
+    margin-top: 10px;
+    margin-bottom: 10vh;
+}
 @media screen and (max-width:645px) {
-    .info-multi {
+    .info-uni {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -80,10 +87,10 @@
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
-    .container-info {
+    .container-info-uni {
         width: 100%;
     }
-    .container-info {
+    .container-info-uni {
         width: 100vw;
     }
     .img-section img {

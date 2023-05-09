@@ -23,6 +23,7 @@ import IconBed from "../../components/images/assets/double-bed.png";
 import IconKitchen from "../../components/images/assets/kitchen.png";
 import IconLocation from "../../components/images/assets/maps-and-location.png";
 import IconPool from "../../components/images/assets/swimming-pool.png";
+import IconBathroom from "../../components/images/assets/bathtub.png";
 import AOS from "aos";
 import { duration } from "aos";
 import "aos/dist/aos.css";
@@ -40,35 +41,36 @@ export const Unifamiliares = () => {
 
     return (
         <div>
-            <div className="section-multi">
-                <div className="info-multi" data-aos="zoom-in">
+            <div className="section-uni">
+                <div className="info-uni" data-aos="zoom-in">
                     <div>
-                        <div className="container-info">
+                        <div className="container-info-uni">
                             <h1>Los Mandarinos</h1>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                                minima molestias, porro atque recusandae, repudiandae
-                                voluptatibus repellendus alias temporibus delectus deserunt
-                                necessitatibus quasi quod voluptate, nam sapiente praesentium
-                                voluptatum veritatis.
+                                Esta obra surgió como un gran proyecto de refacción
+                                que hoy es el hogar de una familia. Una casa muy bien ubicada,
+                                a pocos metros de la Ruta Provincial Nro. 1 y con gran potencial,
+                                hoy se encuentra terminada emplazada en dos plantas, con dos dormitorios,
+                                dos baños, balcón en una de las habitaciones con doble vidrio, comedor,
+                                cocina sectorizada y living.
                             </p>
                         </div>
                         <ul>
                             <li>
                                 <img src={IconBed} />
-                                Item 1
+                                Dos dormitorios
                             </li>
                             <li>
                                 <img src={IconKitchen} />
-                                Item 2
+                                Cocina, comedor y living de estar
                             </li>
                             <li>
-                                <img src={IconLocation} />
-                                Item 3
+                            <img src={IconBathroom} />
+                                Dos baños
                             </li>
                             <li>
-                                <img src={IconPool} />
-                                Item 4
+                            <img src={IconLocation} />
+                                Los Mandarinos 7000
                             </li>
                         </ul>
                     </div>
@@ -76,7 +78,7 @@ export const Unifamiliares = () => {
                         <img src={ImgLM4} />
                     </div>
                 </div>
-                <div className="galery-multi">
+                <div className="galery-uni">
                     <Image.PreviewGroup className="galery-div-group">
                         <Image src={ImgLM5} className="galery-image" data-aos="zoom-in" />
                         <Image src={ImgLM4} className="galery-image" data-aos="zoom-in" />
@@ -87,27 +89,31 @@ export const Unifamiliares = () => {
                     </Image.PreviewGroup>
                 </div>
             </div>
-            <div className="section-multi">
-                <div className="info-multi" data-aos="zoom-in">
+            <div className="section-uni">
+                <div className="info-uni" data-aos="zoom-in">
                     <div>
-                        <div className="container-info">
+                        <div className="container-info-uni">
                             <h1>Villa California</h1>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                                minima molestias, porro atque recusandae, repudiandae
-                                voluptatibus repellendus alias temporibus delectus deserunt
-                                necessitatibus quasi quod voluptate, nam sapiente praesentium
-                                voluptatum veritatis.
+                                Calle De la Sombra, Villa California
+                                Esta propiedad construida desde cero, fue pensada
+                                por su increíble ubicación debida a su cercanía a la Ruta Provincial Nro. 1
+                                y su seguridad, zona que actualmente es de gran demanda. La misma se encuentra
+                                emplazada en una sola planta y cuenta con tres dormitorios, tres baños, uno corresponde
+                                a la pileta en la parte exterior, cocina sectorizada y gran estar comedor. Pileta con gran
+                                solárium húmedo y patio verde con asador. Todos sus ambientes son de amplias dimensiones, ventilados
+                                e iluminados naturalmente.
+                                Disponible para la venta
                             </p>
                         </div>
-                        <ul>
+                        <ul className="vc-list-marg">
                             <li>
                                 <img src={IconBed} />
-                                Item 1
+                                Tres dormitorios
                             </li>
                             <li>
                                 <img src={IconKitchen} />
-                                Item 2
+                                Cocina sectorizada y gran comedor
                             </li>
                             <li>
                                 <img src={IconLocation} />
@@ -115,7 +121,7 @@ export const Unifamiliares = () => {
                             </li>
                             <li>
                                 <img src={IconPool} />
-                                Item 4
+                                Pileta con solárium en amplio patio
                             </li>
                         </ul>
                     </div>
@@ -123,7 +129,7 @@ export const Unifamiliares = () => {
                         <img src={ImgVC1} />
                     </div>
                 </div>
-                <div className="galery-multi">
+                <div className="galery-uni">
                     <Image.PreviewGroup className="galery-div-group">
                         <Image src={ImgVC2} className="galery-image" data-aos="zoom-in" />
                         <Image src={ImgVC1} className="galery-image" data-aos="zoom-in" />

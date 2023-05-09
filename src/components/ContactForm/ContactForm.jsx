@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './ContactForm.css'; // Importar estilos CSS para el formulario
+import axios from "axios";
 
-const ContactForm = () => {
+/* const ContactForm = () => {
   // Estados para almacenar los valores de los campos del formulario
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -18,12 +19,43 @@ const ContactForm = () => {
     setName('');
     setEmail('');
     setMessage('');
-  };
+  }; */
+  const ContactForm = () => {
+    const [formData, setFormData] = useState({
+      name: "",
+      email: "",
+      message: "",
+    });
+  
+    const { name, email, message } = formData;
+  
+    const handleChange = (event) => {
+      setFormData({ ...formData, [event.target.name]: event.target.value });
+    };
+  
+    const handleSubmit = async (event) => {
+      event.preventDefault();
+      try {
+        const response = await axios.post("https://formspree.io/f/xgebrprr", {
+          name,
+          email,
+          message,
+        });
+        console.log(response);
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
+      } catch (error) {
+        console.log(error);
+      }
+    };
 
   return (
     <div className='form-container'>
       <form className="contact-form" onSubmit={handleSubmit}>
-        <h2>Formulario de Contacto</h2>
+        <h2>Contactanos</h2>
 
         {/* Campo para el nombre */}
         {/* <label htmlFor="name">Nombre:</label> */}
@@ -33,7 +65,7 @@ const ContactForm = () => {
           id="name"
           name="name"
           value={name}
-          onChange={(event) => setName(event.target.value)}
+          onChange={handleChange}
           required
         />
 
@@ -45,7 +77,7 @@ const ContactForm = () => {
           id="email"
           name="email"
           value={email}
-          onChange={(event) => setEmail(event.target.value)}
+          onChange={handleChange}
           required
         />
 
@@ -55,7 +87,7 @@ const ContactForm = () => {
           id="message"
           name="message"
           value={message}
-          onChange={(event) => setMessage(event.target.value)}
+          onChange={handleChange}
           required
         ></textarea>
 

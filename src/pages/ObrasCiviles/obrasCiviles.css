@@ -1,0 +1,13 @@
+.obras-proximamente {
+    display: flex;
+    align-items: center;
+    margin-top: 15vh;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.obras-proximamente h2 {
+    color: #007E5B;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

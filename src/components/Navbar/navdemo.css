@@ -72,6 +72,7 @@
     text-decoration: none;
     font-size: 1.2rem;
     letter-spacing: 2px;
+    transition: color 0.27s;
   }
   .navLink:hover{
     color: #007E5B;

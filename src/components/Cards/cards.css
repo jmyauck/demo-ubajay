@@ -44,6 +44,9 @@
 .card-style {
     width: 280px;
     height: 227px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin: 20px;
     border-radius: 6px;
@@ -60,7 +63,7 @@
 }
 
 .card-style img {
-    width: 100%;
+    width: max-content;
     height: 80%;
     
 }

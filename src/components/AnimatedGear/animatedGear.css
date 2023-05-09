@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+
+  }
+  .imagen1 {
+    margin-top: 5vh;
+    width: 180px;
+    height: 180px;
+    animation: giro1 5s infinite linear;
+  }
+  
+  .imagen2 {
+    margin-top: 5vh;
+    width: 130px;
+    height: 130px;
+    animation: giro2 5s infinite linear;
+  }
+  
+  @keyframes giro1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes giro2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }

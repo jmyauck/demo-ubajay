@@ -3,6 +3,7 @@ import './desarrolloUrbano.css';
 import { useEffect } from 'react';
 import { useContext } from 'react';
 import { ModalContext } from '../../contexts/background-image.context';
+import  Footer  from '../../components/Footer/Footer';
 
 
 
@@ -14,8 +15,11 @@ export const Desarrollo = () => {
     }, [])
 
     return (
+        <div>
         <h1>seccion desarrollo urbano</h1>
-    )
+        <Footer/>
+        </div>  
+        )
 }
 
 export default Desarrollo;

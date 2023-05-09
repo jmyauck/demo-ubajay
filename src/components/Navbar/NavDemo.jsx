@@ -10,7 +10,7 @@ import { Brand } from '../Brand/Brand'
 export const DemoNav = () => {
     return (
         <>
-            <nav className="navBar container" id="nav">
+            <nav className="navBar" id="nav">
                 
                 {/* <img src="/images/assets/LOGO_BLANCO.png" className="navLogo"/ > */}
                     <ul className="navList">
