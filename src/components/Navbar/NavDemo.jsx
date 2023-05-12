@@ -3,7 +3,8 @@ import React from 'react';
 import  IconApp  from './assets/applications.png';
 import  IconCancel  from './assets/cancel2.png';
 import { HomeFilled, CloseOutlined } from "@ant-design/icons";
-import { Brand } from '../Brand/Brand'
+import { Brand } from '../Brand/Brand';
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,19 +16,24 @@ export const DemoNav = () => {
                 {/* <img src="/images/assets/LOGO_BLANCO.png" className="navLogo"/ > */}
                     <ul className="navList">
                         <li className="navItem">
-                            <a href="/" className="navLink">Home</a>
+                            <Link to={'/'} className="navLink">Home</Link>
+                            
                         </li>
                         <li className="navItem">
-                            <a href="/section/viviendas-multifamiliares" className="navLink">Viviendas Multifamiliares</a>
+                            <Link to={'/section/viviendas-multifamiliares'} className="navLink">Viviendas Multifamiliares</Link>
+
                         </li>
                         <li className="navItem">
-                            <a href="/section/viviendas-unifamiliares" className="navLink">Viviendas Unifamiliares</a>
+                            <Link to={'/section/viviendas-unifamiliares'} className="navLink">Viviendas Unifamiliares</Link>
+                            
                         </li>
                         <li className="navItem">
-                            <a href="/section/desarrollo-urbano" className="navLink">Desarrollo Urbano</a>
+                            <Link to={'/section/desarrollo-urbano'} className="navLink">Desarrollo Urbano</Link>
+
                         </li>
                         <li className="navItem">
-                            <a href="/section/obras-civiles" className="navLink">Obras Civiles</a>
+                            <Link to={'/section/obras-civiles'} className="navLink">Obras civiles</Link>
+                           
                         </li>
                     </ul>
                     <a href="#nav" class="navHambur">
