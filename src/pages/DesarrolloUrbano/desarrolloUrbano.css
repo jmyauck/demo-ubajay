@@ -1,0 +1,129 @@
+.section-desarrollo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: space-around;
+    flex-wrap: wrap;
+    margin-top: 1vh;
+    position: relative;
+}
+
+.info-multi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 55vw;
+    height: 550px;
+    gap: 40px;
+}
+.info-multi div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container-info {
+/*     width: 25vw; */
+    padding-left: 10vw;
+}
+.container-info h1{
+    color: #007E5B;
+    margin-bottom: 2vh;
+}
+.img-section img {
+    width: 400px;
+}
+.info-multi div ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+.info-multi div ul li {
+    margin-bottom: 2vh;
+}
+.info-multi ul img {
+    margin-right: 10px;
+}
+/*estilo de galeria*/
+.galery-desarrollo {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    width: 65%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galery-div-group {
+    height: 222.08px;
+}
+.galery-image {
+    max-width: 400px;
+}
+
+/*fin de estilo de galeria*/
+
+/*carousel de multifamiliar*/
+
+.vid-carou {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    height: 55vh;
+    width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+/*fin carosel de multifamiliar*/
+
+
+
+/*breakpoints */
+@media screen and (max-width:1435px){
+
+    .info-multi {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .container-info {
+        width: 80%;
+    }
+    .img-section img {
+        width: 100%;
+    }
+    .vid-carou {
+        width: 100%;
+    }
+    .galery-desarrollo {
+        align-self: center;
+    }
+    
+}
+@media screen and (max-width:645px) {
+    .info-multi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .container-info {
+        width: 100%;
+    }
+    .container-info {
+        width: 100vw;
+    }
+    .img-section img {
+        width: 100vw;
+
+    }
+    .vid-carou {
+        display: none;
+    }
+    
+}
+

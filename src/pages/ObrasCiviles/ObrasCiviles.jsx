@@ -18,7 +18,7 @@ export const Obras = () => {
 
     return (
         <div>
-        <AnimatedGear/>
+        <AnimatedGear className='animated-gear'/>
         <div className='obras-proximamente'>
             <h2>Estamos trabajando en esta sección</h2>
             <h5>Próximamente tendrás novedades de las obras civiles a cargo de <b>Ubajay Desarrollos.</b></h5>

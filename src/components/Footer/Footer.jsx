@@ -6,15 +6,21 @@ const Footer =()=> {
 
     return(
         <div className='footer-style'>
-            <Brand/>
-            <ul>
-                <li>dato 1</li>
-                <li>dato 2</li>
-                <li>dato 3</li>
-            </ul>
-            <h4>
-                InlineDw
-            </h4>
+            <div>
+                <Brand/>
+            </div>
+            <div>
+                <ul>
+                    <li>dato 1</li>
+                    <li>dato 2</li>
+                    <li>dato 3</li>
+                </ul>
+            </div>
+            <div>
+                <p>
+                    InlineDw
+                </p>
+            </div>
         </div>
     )
 

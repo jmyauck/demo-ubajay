@@ -15,10 +15,16 @@
     max-width: 500px;
     max-height: 290px;
     box-shadow: 0px 10px 5px #00000071;
-}
- 
+} 
 .video-loteo{
     max-height: 290px;
     max-width: 500px;
     box-shadow: 0px 10px 5px #00000071;
 }
+
+@media screen and (max-width: 510px) {
+    .section-multimedia img {
+        width: 100%;
+    }
+}
+

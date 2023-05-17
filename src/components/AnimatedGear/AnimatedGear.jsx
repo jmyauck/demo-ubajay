@@ -1,6 +1,6 @@
 import React from "react";
 import './animatedGear.css'
-import ImgGear from '../images/assets/gear.png'
+import ImgGear from '../images/assets/gear-min.png'
 
 export const AnimatedGear =()=> {
     return(

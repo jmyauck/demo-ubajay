@@ -6,7 +6,7 @@ import Img1 from '../../components/images/Multifamiliares/035_3D_D.C.png'
 import Img2 from '../../components/images/Multifamiliares/019_1D_Piso8.jpg'
 import Img3 from '../../components/images/Multifamiliares/036_3D_DeptoGeneral.jpg'
 import Img4 from '../../components/images/Multifamiliares/027_3D_D.M_Piso6.jpg'
-import Img5 from '../../components/images/Multifamiliares/045_Fachada Con Montaje.jpg'
+import Img5 from '../../components/images/Multifamiliares/045_Fachada Con Montaje-min.jpg'
 import Img6 from '../../components/images/Multifamiliares/043_Fachada Arriba.jpg'
 import Img7 from '../../components/images/Multifamiliares/024_1D_Baño.png'
 import Img8 from '../../components/images/Multifamiliares/019_1D_Piso8.jpg'
@@ -14,15 +14,15 @@ import Img9 from '../../components/images/Multifamiliares/013_Depto 1D Cocina Co
 import Img10 from '../../components/images/Multifamiliares/012_Depto 1D Cocina-Comedor.jpg'
 import Img11 from '../../components/images/Multifamiliares/011_Depto 1D General 2.jpg'
 import Img12 from '../../components/images/Multifamiliares/010_Depto1D General.jpg'
-import Img13 from '../../components/images/Multifamiliares/009_Terraza Pileta.jpg'
-import Img14 from '../../components/images/Multifamiliares/008_Terraza .png'
+import Img13 from '../../components/images/Multifamiliares/009_Terraza Pileta-min.jpg'
+import Img14 from '../../components/images/Multifamiliares/008_Terraza -min.png'
 import Img15 from '../../components/images/Multifamiliares/007_Sum Asador.jpg'
 import Img16 from '../../components/images/Multifamiliares/006_Sum.jpg'
 import Img17 from '../../components/images/Multifamiliares/005_SumVistaEste.jpg'
-import Img18 from '../../components/images/Multifamiliares/004_Hall de Dia.jpg'
+import Img18 from '../../components/images/Multifamiliares/004_Hall de Dia-min.jpg'
 import Img19 from '../../components/images/Multifamiliares/003_Hall noche 2.jpg'
 import Img20 from '../../components/images/Multifamiliares/002_Hall de Noche.jpg'
-import Img21 from '../../components/images/Multifamiliares/040_Suroeste.jpg'
+import Img21 from '../../components/images/Multifamiliares/040_Suroeste-min.jpg'
 import Vid1 from '../../components/images/Multifamiliares/videos/WhatsApp Video 2023-03-15 at 17.06.29COMPRESSED.mp4'
 import Footer from '../../components/Footer/Footer';
 import IconBed from '../../components/images/assets/double-bed.png';
@@ -76,7 +76,7 @@ export const Multifamiliares = () => {
                 <div className='info-multi' data-aos='zoom-in'>
                     <div>
                         <div className='container-info'>
-                            <h1>Altos de Sarfield</h1>
+                            <h1>Altos de Sarsfield</h1>
                             <p>La premisa de este proyecto es la de aprovechar principalmente su ubicación estratégica, su entorno y sus vistas;
                                 esta conjunción lo hace un producto diferente y referente
                                 en la zona.

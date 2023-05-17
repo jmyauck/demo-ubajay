@@ -5,6 +5,7 @@ import  IconCancel  from './assets/cancel2.png';
 import { HomeFilled, CloseOutlined } from "@ant-design/icons";
 import { Brand } from '../Brand/Brand';
 import { Link } from 'react-router-dom';
+import  { useState } from 'react';
 
 
 
@@ -21,7 +22,6 @@ export const DemoNav = () => {
                         </li>
                         <li className="navItem">
                             <Link to={'/section/viviendas-multifamiliares'} className="navLink">Viviendas Multifamiliares</Link>
-
                         </li>
                         <li className="navItem">
                             <Link to={'/section/viviendas-unifamiliares'} className="navLink">Viviendas Unifamiliares</Link>
@@ -29,11 +29,9 @@ export const DemoNav = () => {
                         </li>
                         <li className="navItem">
                             <Link to={'/section/desarrollo-urbano'} className="navLink">Desarrollo Urbano</Link>
-
                         </li>
                         <li className="navItem">
-                            <Link to={'/section/obras-civiles'} className="navLink">Obras civiles</Link>
-                           
+                            <Link to={'/section/obras-civiles'} className="navLink">Obras civiles</Link>                          
                         </li>
                     </ul>
                     <a href="#nav" class="navHambur">
