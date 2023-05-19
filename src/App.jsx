@@ -12,6 +12,7 @@ import { SectionBannerLoteoSM } from './components/SectionBannerLoteoSM/SectionB
 import  ContactForm  from './components/ContactForm/ContactForm'
 /* import AOS from 'aos' */
 import 'aos/dist/aos.css'
+import WhatsAppButton from './components/WhatsappWidget/WhatsappWidget';
 
 
 
@@ -34,6 +35,7 @@ function App() {
         <About /> 
         <SectionBannerLoteoSM />     
         <ContactForm />
+        <WhatsAppButton/>
         <Footer />
       </div>
     </div>

@@ -12,3 +12,24 @@
 .footer-style ul {
     list-style: none;
 }
+.data-list {
+    flex-direction: row;
+
+}
+.socialbar {
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.social-item:hover {
+    color: #007E5B;
+}
+.signature {
+    background-color: black;
+    color: #989DA6;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
