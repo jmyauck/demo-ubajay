@@ -18,6 +18,7 @@ import { Image } from 'antd'
 import ReactPlayer from 'react-player'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import {WhatsAppButton} from '../../components/WhatsappWidget/WhatsappWidget'
 
 export const Desarrollo = () => {
     const { setClassName } = useContext(ModalContext);
@@ -70,6 +71,7 @@ export const Desarrollo = () => {
                     </Image.PreviewGroup>
                 </div>
             </div>
+            <WhatsAppButton/>
             <Footer />
         </div>
     );

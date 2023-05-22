@@ -34,6 +34,7 @@ import 'aos/dist/aos.css'
 import ReactPlayer from 'react-player';
 import Map from '../../components/Map/Map'
 import { DownloadButton } from '../../components/DownloadButton/DownloadButton'
+import { WhatsAppButton } from '../../components/WhatsappWidget/WhatsappWidget'
 
 
 
@@ -130,6 +131,7 @@ export const Multifamiliares = () => {
                 </div>
             </div>
             <DownloadButton/>
+            <WhatsAppButton/>
             <Footer />
         </div>
     )

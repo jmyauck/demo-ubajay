@@ -5,6 +5,7 @@ import { useContext } from 'react';
 import { ModalContext } from '../../contexts/background-image.context';
 import { AnimatedGear } from '../../components/AnimatedGear/AnimatedGear'
 import Footer from '../../components/Footer/Footer'
+import { WhatsAppButton } from '../../components/WhatsappWidget/WhatsappWidget'
 
 
 
@@ -23,6 +24,7 @@ export const Obras = () => {
             <h2>Estamos trabajando en esta sección</h2>
             <h5>Próximamente tendrás novedades de las obras civiles a cargo de <b>Ubajay Desarrollos.</b></h5>
         </div>
+        <WhatsAppButton/>
         <Footer/>
         </div>
     )

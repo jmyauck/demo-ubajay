@@ -27,6 +27,7 @@ import IconBathroom from "../../components/images/assets/bathtub.png";
 import AOS from "aos";
 import { duration } from "aos";
 import "aos/dist/aos.css";
+import { WhatsAppButton } from '../../components/WhatsappWidget/WhatsappWidget'
 
 export const Unifamiliares = () => {
     const { setClassName } = useContext(ModalContext);
@@ -142,6 +143,7 @@ export const Unifamiliares = () => {
                     </Image.PreviewGroup>
                 </div>
             </div>
+            <WhatsAppButton/>
             <Footer />
         </div>
     );
