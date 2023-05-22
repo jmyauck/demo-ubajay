@@ -74,6 +74,9 @@
     letter-spacing: 2px;
     transition: color 0.27s;
   }
+  .navLink:target {
+    transform: var(--state-menu);
+  }
   .navLink:hover{
     color: #007E5B;
   }
@@ -100,5 +103,10 @@
     .navLink {
       font-size: 1rem;
       letter-spacing: none;
+    }
+  }
+  @media screen and (max-width:645px){
+    .navIcon svg {
+      width: 30px;
     }
   }

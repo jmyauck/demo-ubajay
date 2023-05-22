@@ -27,7 +27,7 @@ const Footer =()=> {
                         </li>
                     </ul>
                 </div>            
-                <div className='socialbar'>   
+                <div className='socialbar' id='socialBarFooter'>   
                         <a href='https://www.facebook.com/UbajayDesarrollos' className='social-item'><FacebookFilled style={{ fontSize: '26px', color: '#989DA6'}}/></a>
                         <a href='https://www.instagram.com/ubajay.desarrollos/'><InstagramFilled style={{ fontSize: '26px', color: '#989DA6'}} className='social-item'/></a>
                         <a href='https://www.youtube.com/@ubajaydesarrollos8311'><YoutubeFilled style={{ fontSize: '28px', color: '#989DA6'}} className='social-item'/></a>

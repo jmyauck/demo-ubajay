@@ -14,7 +14,6 @@ export const DemoNav = () => {
         <>
             <nav className="navBar" id="nav">
                 
-                {/* <img src="/images/assets/LOGO_BLANCO.png" className="navLogo"/ > */}
                     <ul className="navList">
                         <li className="navItem">
                             <Link to={'/'} className="navLink">Home</Link>
