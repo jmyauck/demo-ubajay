@@ -85,3 +85,14 @@
 .link-style {
     text-decoration: none;
 }
+@media screen and (max-width:960px) {
+    .card-style {
+        width: 100vw;
+        background: #005a3f;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .container-cards {
+        margin-top: 5vh;
+    }
+}

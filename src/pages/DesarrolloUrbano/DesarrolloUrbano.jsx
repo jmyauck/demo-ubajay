@@ -35,7 +35,7 @@ export const Desarrollo = () => {
             <div className="section-desarrollo">
                 <div className="info-multi" data-aos="zoom-in">
                     <div>
-                        <div className="container-info">
+                        <div className="container-info-desarrollo">
                             <h1>Loteo San Miguel</h1>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

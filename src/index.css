@@ -31,11 +31,9 @@ code {
 
 @media screen and (max-width:960px){
   .background-image-1 {
-    background: #EBEDF2 url("../src/components/images/Multifamiliares/040_SuroesteDARK.jpg");
+    background: #EBEDF2 ;
     box-shadow: 0px 10px 5px #00000025;
-    background-size: cover;
- 
+    background-size:cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;;
   }
 }

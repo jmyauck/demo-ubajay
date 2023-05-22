@@ -135,9 +135,9 @@
     }
     
 }
-@media screen and (max-width:360px) {
+@media screen and (max-width:375px) {
     .container-info h1 {
-        margin-top: 25vh;
+        margin-top: 35vh;
     }
     .galery-multi {
         margin-top: 35vh;
