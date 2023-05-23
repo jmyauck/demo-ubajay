@@ -39,9 +39,21 @@ export const Desarrollo = () => {
                         <div className="container-info-desarrollo">
                             <h1>Loteo San Miguel</h1>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Quos animi veniam perspiciatis magnam voluptatibus quae, sed ullam amet aliquam
-                                ex expedita eius necessitatibus quia nobis fugiat nesciunt aspernatur suscipit. Fuga!
+                                Es un emprendimiento urbanístico en un área de desarrollo permanente, un barrio
+                                residencial de fácil acceso, con un entorno natural y sustentable, donde la naturaleza y el descanso son protagonistas.
+                                Un lugar donde tus sueños y proyectos pueden ser posibles.
+                            </p>
+                            <p>
+                                San Miguel te ofrece lotes de 200 a 500 m2 de superficie, en un ambiente seguro y confiable, con agua potable, tendido eléctrico,
+                                calles estabilizadas, cordón cuneta, parque de recreación y esparcimiento en cercanía a la laguna Setúbal, ideal para la práctica de 
+                                deportes acuáticos y actividades al aire libre.
+                            </p>
+                            <p>
+                                Una excelente opción para una vida tranquila y cercana a la ciudad, a un precio exclusivo con beneficios de rentabilidad a corto, media y largo
+                                plazo. Con posibilidad de obtiner una bonificación por pago de contado ó entrega y financiación personalizada.
+                            </p>
+                            <p>
+                                San Miguel es la mejor opción para querer, creer y crear lo que soñas.
                             </p>
                         </div>
                     </div>

@@ -13,8 +13,15 @@
     list-style: none;
 }
 .data-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 4vh;
+}
+.data-list li {
+    display: flex;
     flex-direction: row;
-
+    gap: 10px;
 }
 .socialbar {
     width: 15%;
@@ -42,6 +49,9 @@
     }
     .footer-style {
         flex-direction: column;
+    }
+    .data-list {
+        margin-top: 0;
     }
 
 }
