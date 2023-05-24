@@ -1,9 +1,9 @@
 import { CustomNavbar } from '../Navbar/Navbar'
-import { Navbarr } from '../Navbar/Navbarr'
 import './header.css'
 import { Brand } from '../Brand/Brand'
 import { FacebookFilled, InstagramFilled, YoutubeFilled } from '@ant-design/icons'
 import { DemoNav } from '../Navbar/NavDemo'
+import  {Navbarr}  from '../Navbar/Navbarr'
 
 
 
