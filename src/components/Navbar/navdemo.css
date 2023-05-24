@@ -49,14 +49,14 @@
   .navList {
     background-color: #005A3F;
     position: absolute;
-    height: 50%;
+    height: 62%;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     display: grid;
     align-content: center;
-    gap: 3em;
+    gap: 2em;
     padding-left: 5%;
     transform: var(--state-menu);
     transition: 0.3s transform;
