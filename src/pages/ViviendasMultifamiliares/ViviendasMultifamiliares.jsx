@@ -47,7 +47,11 @@ export const Multifamiliares = () => {
     const { setClassName } = useContext(ModalContext)
     useEffect(() => {
         setClassName('background-image-2')
-    }, [])
+    }, []);
+    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
 
     useEffect(() => {

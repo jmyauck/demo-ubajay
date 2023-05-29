@@ -36,6 +36,10 @@ export const Unifamiliares = () => {
     }, []);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    useEffect(() => {
         AOS.init({ duration: 1100 });
         AOS.init({ once : true })
     }, []);

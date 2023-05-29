@@ -10,6 +10,7 @@ import { Unifamiliares } from './pages/ViviendasUnifamiliares/ViviendasUnifamili
 import { Desarrollo } from './pages/DesarrolloUrbano/DesarrolloUrbano'
 import { Obras } from './pages/ObrasCiviles/ObrasCiviles'
 import { ModalProvider } from './contexts/background-image.context';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 
 

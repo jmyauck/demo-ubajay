@@ -19,7 +19,7 @@ const Footer =()=> {
                         </li>
                         <li>
                             <PhoneFilled />
-                            <p>342 6105200</p>
+                            <p>+549 342 6105200</p>
                         </li>
                         <li>
                             <MailFilled />

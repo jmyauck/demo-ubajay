@@ -15,7 +15,9 @@ export const Obras = () => {
     useEffect(() => {
         setClassName('background-image-2')
     }, [])
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div>

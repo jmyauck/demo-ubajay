@@ -9,7 +9,7 @@ export const WhatsAppButton = () => {
   return (
 
         <WhatsAppWidget 
-          phoneNumber="3435073431" // Reemplaza con tu número de teléfono
+          phoneNumber="3426105200" // Reemplaza con tu número de teléfono
           message="¡Hola! ¿En qué puedo ayudarte?" // Mensaje predeterminado
           companyName="Ubajay Desarrollos"
           replyTimeText	= {false}

@@ -25,6 +25,9 @@ export const Desarrollo = () => {
     useEffect(() => {
         setClassName("background-image-2");
     }, []);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     useEffect(() => {
         AOS.init({ duration: 1100 });
@@ -34,7 +37,7 @@ export const Desarrollo = () => {
     return (
         <div>
             <div className="section-desarrollo">
-                <div className="info-multi" data-aos="zoom-in">
+                <div className="info-desarrollo" data-aos="zoom-in">
                     <div>
                         <div className="container-info-desarrollo">
                             <h1>Loteo San Miguel</h1>
